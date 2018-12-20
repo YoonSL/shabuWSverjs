@@ -1,34 +1,33 @@
-.lunchTitle{
+.alacarteTitle{
     font-size : 5vw;
     text-align : center;
     margin-top :30px;
 }
 
-.lunchMenus{
+.alacarteMenus{
     position: absolute;
     left: 15%;
     list-style: none;
     margin-top: 30px;
     float:left;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
-.lunchMenus ul{
+.alacarteMenus ul{
     font-weight: bold;
     margin-top: 20px;
 }
 
-.lunchPrices{
+.alacartePrices{
     position: absolute;
     right: 20%;
     list-style: none;
     margin-top: 30px;
     float:right;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
-.lunchPrices ul{
+.alacartePrices ul{
     font-weight: bold;
     margin-top: 20px;
-    text-align: center;
 }

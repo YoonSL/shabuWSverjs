@@ -2,7 +2,7 @@ lunchPage = () => {
     $(".content").empty();
     $(".content").append(lunchTitle());
     $(".content").append(lunchMenus());
-    // $(".content").append(lunchPrice());
+    $(".content").append(lunchPrice());
 }
 
 lunchTitle = () => {
@@ -15,23 +15,23 @@ lunchTitle = () => {
 
 lunchMenus =() => {
     const lunchMenus = $('<li>').addClass("lunchMenus").append(
-        $('<ul>').text("Premium Beef .......................................... $10"),
+        $('<ul>').text("Premium Beef"),
         $('<ul>').text("Regular Beef"),
         $('<ul>').text("Pork"),
         $('<ul>').text("Chicken"),
-        $('<ul>').text("Seafood")
+        $('<ul>').text("Fresh Seafood")
     )
     return lunchMenus;
 }
 
 
-// lunchPrice =() => {
-//     const lunchMenus = $('<li>').addClass("lunchPrices").append(
-//         $('<ul>').text("$10"),
-//         $('<ul>').text("$9"),
-//         $('<ul>').text("$9"),
-//         $('<ul>').text("$9"),
-//         $('<ul>').text("$9")
-//     )
-//     return lunchMenus;
-// }
+lunchPrice =() => {
+    const lunchMenus = $('<li>').addClass("lunchPrices").append(
+        $('<ul>').text("$10.99"),
+        $('<ul>').text("$9.99"),
+        $('<ul>').text("$9.99"),
+        $('<ul>').text("$9.99"),
+        $('<ul>').text("$9.99")
+    )
+    return lunchMenus;
+}

@@ -22,13 +22,13 @@
     display: block;
     transition: 0.3s;
     font-family: 'Charm', cursive;
-    margin-left:10%;
+    margin-left:2%;
   }
   
   .sidenav ul:hover {
     color: #f1f1f1;
     cursor: pointer;
-    margin-left:20%;
+    margin-left:8%;
   }
   #openNav{
     position : fixed;

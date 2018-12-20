@@ -1,10 +1,10 @@
-.lunchTitle{
+.kidsTitle{
     font-size : 5vw;
     text-align : center;
     margin-top :30px;
 }
 
-.lunchMenus{
+.kidsMenus{
     position: absolute;
     left: 15%;
     list-style: none;
@@ -13,12 +13,12 @@
     font-size: 4vw;
 }
 
-.lunchMenus ul{
+.kidsMenus ul{
     font-weight: bold;
     margin-top: 20px;
 }
 
-.lunchPrices{
+.kidsPrices{
     position: absolute;
     right: 20%;
     list-style: none;
@@ -27,7 +27,7 @@
     font-size: 4vw;
 }
 
-.lunchPrices ul{
+.kidsPrices ul{
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
