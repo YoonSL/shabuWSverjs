@@ -1,0 +1,33 @@
+.lunchTitle{
+    font-size : 5vw;
+    text-align : center;
+    margin-top :30px;
+}
+
+.lunchMenus{
+    position: absolute;
+    left: 15%;
+    list-style: none;
+    margin-top: 30px;
+    float:left;
+    font-size: 3vw;
+}
+
+.lunchMenus ul{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.lunchPrices{
+    position: absolute;
+    right: 20%;
+    list-style: none;
+    margin-top: 30px;
+    float:right;
+    font-size: 3vw;
+}
+
+.lunchPrices ul{
+    font-weight: bold;
+    margin-top: 20px;
+}
